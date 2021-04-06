@@ -14,7 +14,7 @@ cd myapp
 npm init
 npm install express --save
 ```
-> --save 옵션을 통해 설치된 node 모듈은 package.json 파일 내의 dependencies 목록에 추가되며, 이후 npm install을 실행하면 종속 항목 목록 내의 모듈이 자동으로 설치됨
+> --save 옵션을 통해 설치된 node 모듈은 package.json 파일 내의 dependencies 목록에 추가되며, 이후 npm install을 실행하면 종속 항목 목록 내의 모듈이 자동으로 설치됨, default로 세이브 되기 때문에 생략해도 됨
 
 ## app.js생성
 ```javascript
