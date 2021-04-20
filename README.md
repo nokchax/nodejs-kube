@@ -61,3 +61,5 @@ COPY . .
 EXPOSE 8080
 CMD [ "node", "server.js" ]
 ```
+
+빌드 후 도커 허브에 올리기
